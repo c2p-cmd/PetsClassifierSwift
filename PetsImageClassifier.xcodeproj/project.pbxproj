@@ -11,6 +11,8 @@
 		009C514D2B9C318400D5DF0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C514C2B9C318400D5DF0A /* ContentView.swift */; };
 		009C514F2B9C318500D5DF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009C514E2B9C318500D5DF0A /* Assets.xcassets */; };
 		009C51532B9C318500D5DF0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009C51522B9C318500D5DF0A /* Preview Assets.xcassets */; };
+		009C515A2B9C34A800D5DF0A /* PetsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 009C51592B9C34A800D5DF0A /* PetsClassifier.mlmodel */; };
+		009C515E2B9C477F00D5DF0A /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C515D2B9C477F00D5DF0A /* UIImage+CVPixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		009C514E2B9C318500D5DF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009C51502B9C318500D5DF0A /* PetsImageClassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetsImageClassifier.entitlements; sourceTree = "<group>"; };
 		009C51522B9C318500D5DF0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		009C51592B9C34A800D5DF0A /* PetsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetsClassifier.mlmodel; sourceTree = "<group>"; };
+		009C515D2B9C477F00D5DF0A /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 				009C514C2B9C318400D5DF0A /* ContentView.swift */,
 				009C514E2B9C318500D5DF0A /* Assets.xcassets */,
 				009C51502B9C318500D5DF0A /* PetsImageClassifier.entitlements */,
+				009C51592B9C34A800D5DF0A /* PetsClassifier.mlmodel */,
 				009C51512B9C318500D5DF0A /* Preview Content */,
+				009C515D2B9C477F00D5DF0A /* UIImage+CVPixelBuffer.swift */,
 			);
 			path = PetsImageClassifier;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009C515A2B9C34A800D5DF0A /* PetsClassifier.mlmodel in Sources */,
+				009C515E2B9C477F00D5DF0A /* UIImage+CVPixelBuffer.swift in Sources */,
 				009C514D2B9C318400D5DF0A /* ContentView.swift in Sources */,
 				009C514B2B9C318400D5DF0A /* PetsImageClassifierApp.swift in Sources */,
 			);
@@ -274,6 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To read Images";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +321,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To read Images";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
